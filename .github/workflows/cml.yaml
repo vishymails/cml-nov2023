@@ -22,8 +22,8 @@ jobs :
 
           echo "## Data viz" >> report.md
 
-          cml comment feature_importance.png --md >> report.md
+          cml comment feature_importance.png >> report.md
 
-          cml comment residuals.png --md >> report.md
+          cml comment residuals.png >> report.md
 
           cml comment create report.md
